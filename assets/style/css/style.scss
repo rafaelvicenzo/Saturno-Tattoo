@@ -1,0 +1,80 @@
+@import url(/assets/style/css/fonts.css);
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-image: url(/assets/images/unsplash_5P_DABYHK1A.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.logo img {
+    filter: brightness(0) invert(1);
+    height: 210px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#left img {
+    height: 30px;
+}
+
+#left {
+    margin-left: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+#right button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 25px;
+    width: 150px;
+}
+
+#phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 109px;
+}
+
+p {
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.mainButton {
+    background-color: #C5A54C;
+    color: #fff;
+    font-size:medium;
+    padding: 15px;
+    width: 200px;
+    border: none;
+    margin-bottom: 165px;
+    cursor: pointer;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
