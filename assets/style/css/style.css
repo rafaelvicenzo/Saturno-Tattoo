@@ -121,4 +121,45 @@ body {
 
 main {
   display: flex;
+}
+
+section {
+  background-color: #fff;
+}
+
+section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  text-transform: uppercase;
+  color: #C5A54C;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+section p {
+  margin-top: 0;
+  color: #000;
+}
+
+.cards img {
+  height: 300px;
+}
+
+.cards {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=style.css.map */
