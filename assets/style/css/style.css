@@ -5,7 +5,7 @@
 }
 
 header {
-  background-image: url(/assets/images/unsplash_5P_DABYHK1A.jpg);
+  background: linear-gradient(to bottom, rgba(6, 18, 30, 0) 85%, #06121E 100%), url("/assets/images/unsplash_5P_DABYHK1A.jpg") no-repeat center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,6 +29,7 @@ header {
   margin-left: 25px;
   display: flex;
   gap: 15px;
+  width: 174px;
 }
 
 #right button {
@@ -39,6 +40,7 @@ header {
   border-radius: 3px;
   margin-right: 25px;
   width: 150px;
+  cursor: pointer;
 }
 
 #phrase {
@@ -74,4 +76,49 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: #06121E;
+}
+
+.arrowDown {
+  position: relative;
+  bottom: 65px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.about {
+  font-family: "Inter", sans-serif;
+  font-size: xx-large;
+  margin: 170px 0 0 200px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #C5A54C;
+}
+
+.about p {
+  text-transform: none;
+  font-size: large;
+  font-weight: 200;
+  color: #fff;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+}
+
+.container img {
+  height: 310px;
+}
+
+main {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
