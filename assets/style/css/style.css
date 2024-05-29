@@ -123,11 +123,11 @@ main {
   display: flex;
 }
 
-section {
+section, article {
   background-color: #fff;
 }
 
-section h1 {
+section h1, article h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,4 +183,15 @@ section p {
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
+}
+
+article h1 {
+  margin-top: 0px;
+}
+
+#map {
+  height: 400px;
+  width: 1000px;
+  left: 20%;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
