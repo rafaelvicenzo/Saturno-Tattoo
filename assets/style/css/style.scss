@@ -55,6 +55,7 @@ header {
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 109px;
+    cursor: pointer;
 }
 
 p {
@@ -63,6 +64,7 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 17px;
+    cursor: pointer;
 }
 
 .mainButton {
@@ -74,6 +76,10 @@ p {
     border: none;
     margin-bottom: 165px;
     cursor: pointer;
+}
+
+.mainButton:hover {
+    background-color: #A8893B;
 }
 
 #center {
@@ -97,10 +103,14 @@ body {
     filter: brightness(0) invert(1);
 }
 
+.arrowDown:hover {
+    filter: brightness(10) invert(1);
+}
+
 .about {
     font-family: 'Inter', sans-serif;
     font-size: xx-large;
-    margin: 170px 0 0 200px;
+    margin: 170px 0 0 100px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -177,6 +187,7 @@ section p {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     font-weight: 200;
+    cursor: pointer;
 }
 
 .card-content button {
@@ -187,6 +198,10 @@ section p {
     border-radius: 3px;
     color: #fff;
     cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #A48A5A;
 }
 
 article h1 {
@@ -222,3 +237,20 @@ footer {
     margin-bottom: 20px;
 }
 
+#img3 {
+    border-radius: 155px;
+    position: relative;
+    right: 146px;
+}
+
+#img2 {
+    border-radius: 155px;
+    position: relative;
+    left: 275px;
+}
+
+#img1 {
+    border-radius: 150px;
+    position: relative;
+    left: 92px;
+}
