@@ -56,6 +56,7 @@ header {
     font-weight: 400;
     margin-top: 109px;
     cursor: pointer;
+    text-align: center;
 }
 
 p {
@@ -253,4 +254,35 @@ footer {
     border-radius: 150px;
     position: relative;
     left: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #right button {
+        display: none;
+    }
+
+    #left {
+        justify-content: center;
+        margin: 0;
+    }
+
+    header {
+        background-position-x: -327px;
+        background-position-y: -136px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
 }

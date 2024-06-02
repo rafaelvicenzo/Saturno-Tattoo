@@ -41,11 +41,6 @@ header {
   margin-right: 25px;
   width: 150px;
   cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#right button:hover {
-  background-color: #A48A5A;
 }
 
 #phrase {
@@ -57,6 +52,7 @@ header {
   font-weight: 400;
   margin-top: 109px;
   cursor: pointer;
+  text-align: center;
 }
 
 p {
@@ -253,4 +249,28 @@ footer {
   border-radius: 150px;
   position: relative;
   left: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #right button {
+    display: none;
+  }
+  #left {
+    justify-content: center;
+    margin: 0;
+  }
+  header {
+    background-position-x: -327px;
+    background-position-y: -136px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
