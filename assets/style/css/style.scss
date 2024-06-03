@@ -334,5 +334,62 @@ footer {
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
+    #img3 {
+        border-radius: 155px;
+    position: relative;
+    right: 305px;
+    }
 
+    #img1 {
+        border-radius: 20px;
+    position: relative;
+    left: 16px;
+    top: -129px;
+    }
+
+    #img2 {
+        border-radius: 20px;
+    position: relative;
+    left: 27px;
+    top: -129px;
+    }
+
+    .about {
+        margin: 50px 3px 0 3px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 143px;
+        margin-left: 32%;
+    }
+
+    .about p {
+        margin: 17px 25px 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: -2px;
+    }
+
+    #map {
+        height: 400px;
+        width: 100%;
+        left: 0%;
+        border-radius: 20px;
+    }
+
+    section p {
+        text-align: center;
+    }
 }
