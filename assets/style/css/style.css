@@ -301,8 +301,17 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 0;
+    margin-bottom: -1px;
   }
   .cards img {
     height: 300px;
+  }
+  #map {
+    height: 361px;
+    width: 384px;
+    left: 1%;
+  }
+  #copyright {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
