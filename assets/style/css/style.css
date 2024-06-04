@@ -365,4 +365,28 @@ footer {
   section p {
     text-align: center;
   }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #map {
+    left: 0;
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  .about {
+    text-align: center;
+    margin: 170px 20px 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
