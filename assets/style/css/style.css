@@ -41,6 +41,11 @@ header {
   margin-right: 25px;
   width: 150px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#right button:hover {
+  background-color: #A48A5A;
 }
 
 #phrase {
@@ -155,6 +160,10 @@ section h1, article h1 {
 section p {
   margin-top: 0;
   color: #000;
+}
+
+section {
+  margin-bottom: -1px;
 }
 
 .cards img {
@@ -307,9 +316,8 @@ footer {
     height: 300px;
   }
   #map {
-    height: 361px;
-    width: 384px;
-    left: 1%;
+    width: 100%;
+    left: 0%;
   }
   #copyright {
     text-align: center;
@@ -386,6 +394,17 @@ footer {
     margin: 170px 20px 0;
   }
   main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+  #map {
+    height: 400px;
+    width: 100%;
+    left: 0;
+  }
+  .cards {
     display: flex;
     flex-direction: column;
   }
